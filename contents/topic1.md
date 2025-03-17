@@ -6,4 +6,4 @@
 
 # Assignment Dashboard
 
-> Coming very soon!
+> Coming soon!
