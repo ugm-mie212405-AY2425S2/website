@@ -1,5 +1,5 @@
 <frontmatter>
-  title: Topic 1
+  title: Assignment Dashboard
 </frontmatter>
 
 <br>
