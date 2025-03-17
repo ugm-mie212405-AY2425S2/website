@@ -2,76 +2,80 @@
   title: Home Page
   layout: default.md
   pageNav: 4
-  pageNavTitle: "Topics"
+  pageNavTitle: "Pengenalan Pola EL"
 </frontmatter>
 
 <br>
 
-<div class="bg-primary text-white px-2 py-5 mb-4">
-  <div class="container">
-    <h1 class="display-5 no-index">Great!<br>You've just initialized a MarkBind site.</h1>
-    <p class="lead">Let's get started...</p>
-  </div>
-</div>
-
----
-
-## What just happened?
-
-You have just initialized a _default_ MarkBind site! It is equipped with a set of core features, including site and page navigation. Additionally, we have included some convenient links to our User Guide, to help you get started quickly and easily.
+## Welcome to MIE212405 - Pattern Recognition
 
 <box type="tip">
 
-If you were intending to convert an existing GitHub wiki or a docs folder into MarkBind, use the `--convert` flag instead. See <a href="https://markbind.org/userGuide/markBindInTheProjectWorkflow.html#converting-existing-project-documentation-wiki" target="_blank">User Guide: MarkBind in the Project Workflow</a> for more information.
+Anda dapat monitor tugas anda, melihat feedback, dan supplementary materials jika diperlukan.
 
-If you want to start with a <tooltip content="i.e. without any content">_minimal_</tooltip> template instead, use the `--template` flag with the "minimal" option to initialize a minimal site instead of the default. See <a href="https://markbind.org/userGuide/templates.html" target="_blank">User Guide: Templates</a> for more information.
+Perhatikan dengan saksama petunjuk pengumpulan tugas dibawah!
 
 </box>
 
 ---
 
-## Navigating this site
+## Petunjuk Pengumpulan Source Code Tugas
 
-This _default_ site comes pre-configured with the core <a href="https://markbind.org/userGuide/components/navigation.html#navigation-components" target="_blank">Navigation components</a>: a <tooltip content="Site Navigation">**siteNav**</tooltip>, a <tooltip content="Page Navigation">**pageNav**</tooltip>, a <tooltip content="Navigation Bar">**NavBar**</tooltip>, and a **Search Bar**. To help you get started with the **siteNav**, we have included <tooltip content="Topic 1, Topic 2, Topic 3, Topic 3a, Topic 3b">five dummy placeholder pages</tooltip>. The **NavBar** also comes with a placeholder slot for your custom Logo.
+Source code tugas dikumpulkan melalui GitHub repository. Pada repo ini, akan dilakukan testing Coding Standard Python PEP8. Jika tidak lolos pengecekan (menggunakan CI GitHub) i.e. tidak mengikuti Coding Standard PEP8, maka source code tidak akan dinilai.
 
----
-
-## Guide to MarkBind
-
-To see the capability of MarkBind in action, feel free to take a look at some of the websites built using MarkBind on our <a href="https://markbind.org/showcase.html" target="_blank">Showcase</a> page. 
-
-For more information on how to work with MarkBind sites and to add content, refer to our comprehensive <a href="https://markbind.org/userGuide/gettingStarted.html" target="_blank">User Guide</a>. 
+Pastikan anda sudah memiliki akun GitHub.
 
 <box type="info">
 
-If you are interested in contributing to MarkBind, you can refer to our <a href="https://markbind.org/devdocs/devGuide/devGuide.html" target="_blank">Developer Guide</a> as well!
+Pastikan anda telah menerima invitation GitHub organization melalui e-mail anda. Hubungi yogi.p@comp.nus.edu.sg jika belum menerima invitation.
 
 </box>
 
-<panel header="**Good starting points in our User Guide**" expanded no-close>
+<panel header="**EL Class Pattern Recognition Assignment Repo**" expanded no-close>
 
-##### **User Guide: Authoring Contents**
+Untuk mengerjakan tugas, ikuti langkah-langkah berikut:
 
-> Learn about the variety of syntax schemes, formats, and custom MarkBind components that you can use in your MarkBind site.
+1. **Fork Repository Ini**  
+   - Klik tombol **Fork** di sudut kanan atas halaman repository untuk membuat salinan repository ke akun GitHub Anda.
 
-More info in: _<a href="https://markbind.org/userGuide/authoringContents.html" target="_blank">User Guide → Authoring Contents</a>_
+2. **Clone Fork Repository Anda ke Local**  
+   - Buka terminal dan jalankan perintah berikut (ganti `<username>` dengan username GitHub Anda):
+     ```bash
+     git clone https://github.com/<username>/Assignment.git
+     ```
+   
+3. **Buat Branch di Fork Anda**  
+   - Masuk ke direktori repository yang telah di-clone:
+     ```bash
+     cd Assignment
+     ```
+   - Buat branch baru dengan nama `Assignment-n`, di mana `n` adalah nomor tugas. Contoh: untuk Tugas 1, gunakan:
+     ```bash
+     git checkout -b Assignment-1
+     ```
 
----
+4. **Kerjakan Tugas Anda**  
+   - Tambahkan file-file hasil pengerjaan tugas Anda, baik file **.ipynb** maupun **.py** dan **requirements.txt** yang berisikan daftar library yang anda gunakan ke dalam branch yang telah dibuat.
 
-##### **User Guide: Working with Sites**
+5. **Push File ke Fork Repository Anda**  
+   - Setelah selesai mengerjakan, jalankan perintah berikut untuk mengirim perubahan ke GitHub:
+     ```bash
+     git add .
+     git commit -m "Tugas 1 - Penugasan EL Class Pattern Recognition"
+     git push origin Assignment-1
+     ```
 
-> Learn how to modify site properties, apply themes, and enable/disable plugins for your MarkBind site.
+6. **Lakukan Pull Request ke Repository Utama (Upstream)**  
+   - Buka repository fork Anda di GitHub.
+   - Klik tombol **Compare & pull request** pada branch `Assignment-1`.
+   - Buat pull request ke repository utama.
+   - Tunggu hingga seluruh pemeriksaan (checks) selesai sebelum pull request Anda di-merge.
 
-More info in: _<a href="https://markbind.org/userGuide/workingWithSites.html" target="_blank">User Guide → Working with Sites</a>_
 
----
+7. **Selesai**  
+   - Setelah pull request diterima dan semua pemeriksaan selesai, tugas Anda dianggap selesai.
 
-##### **User Guide: Full Syntax Reference**
-
-> Refer to our Full Syntax Reference page to find a specific feature or component that you want to use in your MarkBind site.
-
-More info in: _<a href="https://markbind.org/userGuide/fullSyntaxReference.html" target="_blank">User Guide → Full Syntax Reference</a>_
-
+Selamat mengerjakan!
 </panel>
 
 ---
