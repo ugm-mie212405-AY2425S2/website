@@ -4,6 +4,6 @@
 
 <br>
 
-# Topic 2
+# Instructors
 
-> This is a placeholder page - more content to be added.
+> Coming soon!

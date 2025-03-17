@@ -4,6 +4,6 @@
 
 <br>
 
-# Topic 1
+# Assignment Dashboard
 
-> This is a placeholder page - more content to be added.
+> Coming soon!
