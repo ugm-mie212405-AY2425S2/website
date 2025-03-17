@@ -1,0 +1,43 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "404.md",
+      "title": "Page not found",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "README.md",
+      "headings": {
+        "website": "website"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/dashboard.md",
+      "title": "Assignment Dashboard",
+      "headings": {
+        "assignment-dashboard": "Assignment Dashboard"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/instructors.md",
+      "title": "Instructors",
+      "headings": {
+        "instructors": "Instructors"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "Home Page",
+      "headings": {
+        "welcome-to-mie212405-pattern-recognition": "Welcome to MIE212405 - Pattern Recognition",
+        "petunjuk-pengumpulan-source-code-tugas": "Petunjuk Pengumpulan Source Code Tugas"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}
