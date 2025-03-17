@@ -5,8 +5,8 @@
 <header sticky>
   <navbar type="dark">
     <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand">MIE212405</a>
-    <li><a href="{{baseUrl}}/contents/topic1.html" class="nav-link">Assignment Dashboard</a></li>
-    <li><a href="{{baseUrl}}/contents/topic2.html" class="nav-link">Instructors</a></li>
+    <li><a href="{{baseUrl}}/contents/dashboard.html" class="nav-link">Assignment Dashboard</a></li>
+    <li><a href="{{baseUrl}}/contents/instructors.html" class="nav-link">Instructors</a></li>
     <li slot="right">
       <form class="navbar-form">
         <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
@@ -23,8 +23,8 @@
     <div class="nav-component slim-scroll">
       <site-nav>
 * [Home :house:]({{ baseUrl }}/index.html)
-* [Assignment Dashboard]({{baseUrl}}/contents/topic1.html)
-* [Instructors]({{baseUrl}}/contents/topic2.html)
+* [Assignment Dashboard]({{baseUrl}}/contents/dashboard.html)
+* [Instructors]({{baseUrl}}/contents/instructors.html)
       </site-nav>
     </div>
   </nav>
